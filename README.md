@@ -1,1 +1,1 @@
-# Multi-lesion-learning-of-COVID-19-CT-images
+# LA-DNN for COVID-19 diagnosis
