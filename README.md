@@ -25,7 +25,8 @@ Chest (computed tomography) CT scanning is one of the most important technologie
   * The following link can help you get a detailed description about the dataset.<br>
     arXiv: https://arxiv.org/abs/2003.13865 <br>
     dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
-  * XXX
+  * We use the image caption in the meta information provided by the dataset to add auxiliary labels to each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr) , and Interlobular septal thickening (InSepThi). New meta information containing auxiliary tags can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
+  * Fine-tuned data division can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
   
 * We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19, in order to further optimize the performance of our model.
   * XXX
@@ -41,7 +42,7 @@ Welcome to visit our system!
 ### 4.1 ROC & PRC
 
 <p align="center">
-    <img src="Images/ROC_4.png" width=300 /> <img src="Images/PRC_4.png" width=300 />  <br />
+    <img src="Images/ROC_4.png" width=350 /> <img src="Images/PRC_4.png" width=350 />  <br />
     <em> 
     Figure 2. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline.
     </em>
