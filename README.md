@@ -2,9 +2,24 @@
 
 ## :fire: NEWS :fire:
 
-- [2020/05/13] :boom: Upload XXX. (Uploaded by XXX)
+- [2020/05/14] :boom: (Updated by *Xiaoxue Gao*)
 
-- [2020/05/12] :boom: XXX. (Updated by XXX)
+  * Release new data in `./New_data/5.14/`.
+  * Update `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
+  * Update the model in [Online Diagnosis System](https://www.covidct.cn/), The performance is as follows:
+  
+     |  Date      |   ACC   |   AUC   |    F1   |  Recall |
+     | :-----:    | :-----: | :-----: | :-----: | :-----: |
+     | 2020/05/14 |   88.1  |   92.9  |   87.9  |   86.2  |
+ 
+- [2020/05/13] :boom: (Updated by *Xiaoxue Gao*)
+
+  * Release new data in `./New_data/5.13/`.
+  * Update `./New_data/New_NonCOVIDCT_meta(update to 5.13).csv`.
+
+- [2020/05/11] :boom: (Uploaded by *Mengshuang He*)
+
+  * Upload new meta-information containing auxiliary tags about [COVID-CT-Dataset]( https://github.com/UCSD-AI4H/COVID-CT) in `./data_split/COVID-CT-MetaInfo_new.csv`. 
 
 - [2020/05/07] Create repository.
 
@@ -35,13 +50,15 @@ Chest (computed tomography) CT scanning is one of the most important technologie
 
 ## 3. Online Diagnosis System
 
-An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. Welcome to visit our system!
+An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. 
+
+:satisfied: Welcome to visit our system! :satisfied:
 
   * You can quickly test a single sample or batch of samples in this system, through the navigation bar **Test → Single Image** or **Test → Batch of Images**.
   * If you want to contribute data for our project, you can submit the data to **Data Collection**.
 
 <p align="center">
-    <img src="Images/Navigationbar.png" width=600 /> <br />
+    <img src="Images/Navigationbar.png" width=800 /> <br />
     <em> 
     Figure 2. Navigation bar of Online Diagnosis System.
     </em>
@@ -81,7 +98,7 @@ An online system has been developed for fast online diagnoses using CT images at
 Our method and results are described in [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
 
 Please cite our paper if you find the work useful:
-
+```
     @article {Liu2020.05.11.20097907,
       author = {Liu, Bin and Gao, Xiaoxue and He, Mengshuang and Lv, Fengmao and Yin, Guosheng},
       title = {Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks},
@@ -92,7 +109,7 @@ Please cite our paper if you find the work useful:
       eprint = {https://www.medrxiv.org/content/early/2020/05/14/2020.05.11.20097907.full.pdf},
       journal = {medRxiv},
     }
-    
+```    
 ## 6. Questions
 
 If you have any questions about our paper or online diagnosis system, please feel free to contact *Xiaoxue Gao (gxx3027@163.com)* 
