@@ -19,13 +19,13 @@
 
 - [2020/05/11] :boom: (Uploaded by *Mengshuang He*)
 
-  * Upload new meta-information containing auxiliary tags about [COVID-CT-Dataset]( https://github.com/UCSD-AI4H/COVID-CT) in `./data_split/COVID-CT-MetaInfo_new.csv`. 
+  * Upload new meta-information containing auxiliary labels about [COVID-CT-Dataset]( https://github.com/UCSD-AI4H/COVID-CT) in `./data_split/COVID-CT-MetaInfo_new.csv`. 
 
 - [2020/05/07] Create repository.
 
 ## 1. Background
 
-Chest (computed tomography) CT scanning is one of the most important technologies for COVID-19 diagnosis in the current clinical practice, which motivates more concerted efforts in developing AI-based diagnostic tools to alleviate the enormous burden on the medical system. We develop a lesion-attention deep neural network (LA-DNN) to predict COVID-19 positive or negative with a richly annotated chest CT image dataset. The CT image dataset contains 746 public chest CT images of COVID-19 patients collected from over 760 preprints, and the data annotations are accompanied with the textual radiology reports. We extract two types of important information from these annotations: One is the flag of whether an image indicates a positive or negative case of COVID-19, and the other is the description of five lesions on the CT images associated with the positive cases. The proposed data-driven LA-DNN model focuses on the primary task of binary classification for COVID-19 diagnosis, while an auxiliary multi-label learning task is implemented simultaneously to draw the model's attention to the five lesions of COVID-19 during the training. The joint task learning process makes it a highly sample-efficient deep model that can learn COVID-19 radiology features effectively with very limited samples.
+Chest (computed tomography) CT scanning is one of the most important technologies for COVID-19 diagnosis in the current clinical practice, which motivates more concerted efforts in developing AI-based diagnostic tools to alleviate the enormous burden on the medical system. We develop a lesion-attention deep neural network (LA-DNN) to predict COVID-19 positive or negative with a richly annotated chest CT image dataset. The CT image dataset contains 746 public chest CT images of COVID-19 patients collected from over 760 preprints, and the data annotations are accompanied with the textual radiology reports. We extract two types of important information from these annotations: One is the flag of whether an image indicates a positive or negative case of COVID-19, and the other is the description of five lesions on the CT images associated with the positive cases. The proposed data-driven LA-DNN model focuses on the primary task of binary classification for COVID-19 diagnosis, while an auxiliary multi-label learning task is implemented simultaneously to draw the model's attention to the five lesions of COVID-19 during the training. The joint task learning process makes it a highly sample-efficient deep model that can learn COVID-19 radiology features effectively with very limited samples. Our code is public in the folder `./Code/`.
 
 <p align="center">
     <img src="Images/model_v2.png" width=600 /> <br />
@@ -40,7 +40,7 @@ Chest (computed tomography) CT scanning is one of the most important technologie
   * The following link can help you get a detailed description about the dataset.<br>
     * arXiv: https://arxiv.org/abs/2003.13865 <br>
     * dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
-  * We used the image caption in the meta-information provided by this datasets to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr) , and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary tags can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
+  * We used the image caption in the meta-information provided by this datasets to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr) , and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary labels can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
   * Fine-tuned data split information can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
   
 * We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19.
