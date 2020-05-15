@@ -35,9 +35,17 @@ Chest (computed tomography) CT scanning is one of the most important technologie
 
 ## 3. Online Diagnosis System
 
-An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. 
+An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. Welcome to visit our system!
 
-Welcome to visit our system!
+  * You can quickly test a single sample or batch of samples in this system, through the navigation bar **Test → Single Image** or **Test → Batch of Images**.
+  * If you want to contribute data for our project, you can submit the data to **Data Collection**.
+
+<p align="center">
+    <img src="Images/Navigationbar.png" width=600 /> <br />
+    <em> 
+    Figure 2. Navigation bar of Online Diagnosis System.
+    </em>
+</p>
 
 ## 4. Result
 
@@ -46,7 +54,7 @@ Welcome to visit our system!
 <p align="center">
     <img src="Images/ROC_4.png" width=350 /> <img src="Images/PRC_4.png" width=350 />  <br />
     <em> 
-    Figure 2. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline.
+    Figure 3. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline.
     </em>
 </p>
 
