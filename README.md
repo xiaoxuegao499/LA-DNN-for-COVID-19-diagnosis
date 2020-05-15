@@ -77,6 +77,7 @@ An online system has been developed for fast online diagnoses using CT images at
 ## 5. Citation
 
 Our method and results are described in [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
+
 Please cite our paper if you find the work useful:
 
     @article {Liu2020.05.11.20097907,
@@ -92,5 +93,5 @@ Please cite our paper if you find the work useful:
     
 ## 6. Questions
 
-If you have any questions about our paper or online diagnosis system, please feel free to contact [Xiaoxue Gao](gxx3027@163.com) 
-or [Mengshuang He](hms1216@126.com) via E-mail.
+If you have any questions about our paper or online diagnosis system, please feel free to contact *Xiaoxue Gao(gxx3027@163.com)* 
+or *Mengshuang He(hms1216@126.com)* via E-mail.
