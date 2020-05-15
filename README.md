@@ -7,11 +7,12 @@
   * Release new data in `./New_data/5.14/`.
   * Update `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
   * Update the model in [Online Diagnosis System](https://www.covidct.cn/), The performance is as follows:
-  
-     |  Date      |   ACC   |   AUC   |    F1   |  Recall |
-     | :-----:    | :-----: | :-----: | :-----: | :-----: |
-     | 2020/05/14 |   88.1  |   92.9  |   87.9  |   86.2  |
+
+       |  Date      |   ACC   |   AUC   |    F1   |  Recall |
+       | :-----:    | :-----: | :-----: | :-----: | :-----: |
+       | 2020/05/14 |   88.1  |   92.9  |   87.9  |   86.2  |
  
+
 - [2020/05/13] :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/5.13/`.
