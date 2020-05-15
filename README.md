@@ -64,14 +64,14 @@ An online system has been developed for fast online diagnoses using CT images at
     </em>
 </p>
 
-## 4. Result
+## 4. Results
 
 ### 4.1 ROC & PRC
 
 <p align="center">
     <img src="Images/ROC_4.png" width=350 /> <img src="Images/PRC_4.png" width=350 />  <br />
     <em> 
-    Figure 3. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline.
+    Figure 3. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline (Left: ROC curves, Right: Precision-recall curves).
     </em>
 </p>
 
