@@ -87,7 +87,7 @@ An online system has been developed for fast online diagnoses using CT images at
 ### 4.3 Visualization of the primary vs. auxiliary tasks
 
 <p align="center">
-    <img src="Images/Pairplot_before.png" width=400 /> <br />
+    <img src="Images/Pairplot_before.png" width=500 /> <br />
     <em> 
     Figure 5. Plots of the pairwise relationships among the five lesions on making the final binary classification of COVID-19.
     </em>
