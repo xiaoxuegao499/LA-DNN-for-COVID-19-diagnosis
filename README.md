@@ -19,11 +19,7 @@ Chest (computed tomography) CT scanning is one of the most important technologie
     </em>
 </p>
 
-## 2. Online Diagnosis System
-
-An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. Welcome to visit our system!
-
-## 3. Data
+## 2. Data
 
 * We used this public datasets: **"COVID-CT-Dataset: a CT scan dataset about COVID-19."** arXiv, 2020. <br>
   * The following link can help you get a detailed description about the dataset.<br>
@@ -34,29 +30,24 @@ An online system has been developed for fast online diagnoses using CT images at
 * We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19, in order to further optimize the performance of our model.
   * XXX
 
+## 3. Online Diagnosis System
 
+An online system has been developed for fast online diagnoses using CT images at the web address https://www.covidct.cn/. 
+
+Welcome to visit our system!
 
 ## 4. Result
 
-### 4.1 ROC
+### 4.1 ROC & PRC
 
 <p align="center">
-    <img src="Images/ROC_4.png" width=400 /> <br />
+    <img src="Images/ROC_4.png" width=300 /> <img src="Images/PRC_4.png" width=300 />  <br />
     <em> 
-    Figure 2. ROC curves of the baseline and LA-DNN.
+    Figure 2. Performance of our proposed LA-DNN model for COVID-19 diagnosis in comparison with the baseline.
     </em>
 </p>
 
-### 4.2 PRC
-
-<p align="center">
-    <img src="Images/PRC_4.png" width=400 /> <br />
-    <em> 
-    Figure 3. Precision-recall curves of the baseline and LA-DNN.
-    </em>
-</p>
-
-### 4.3 Lesion attention map
+### 4.2 Lesion attention map
 
 <p align="center">
     <img src="Images/gradcam10.jpg" width=300 /> <br />
@@ -65,7 +56,7 @@ An online system has been developed for fast online diagnoses using CT images at
     </em>
 </p>
 
-### 4.4 Visualization of the primary vs. auxiliary tasks
+### 4.3 Visualization of the primary vs. auxiliary tasks
 
 <p align="center">
     <img src="Images/Pairplot_before.png" width=400 /> <br />
