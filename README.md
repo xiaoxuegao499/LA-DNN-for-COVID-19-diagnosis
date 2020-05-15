@@ -93,5 +93,5 @@ Please cite our paper if you find the work useful:
     
 ## 6. Questions
 
-If you have any questions about our paper or online diagnosis system, please feel free to contact *Xiaoxue Gao(gxx3027@163.com)* 
-or *Mengshuang He(hms1216@126.com)* via E-mail.
+If you have any questions about our paper or online diagnosis system, please feel free to contact *Xiaoxue Gao (gxx3027@163.com)* 
+or *Mengshuang He (hms1216@126.com)* via E-mail.
