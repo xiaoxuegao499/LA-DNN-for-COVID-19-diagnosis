@@ -80,7 +80,7 @@ An online system has been developed for fast online diagnoses using CT images at
 <p align="center">
     <img src="Images/gradcam10.jpg" width=300 /> <br />
     <em> 
-    Figure 4. Grad-CAM++ visualization for the baseline and our LA-DNN model with the backbone net of DenseNet-169.
+    Figure 4. Grad-CAM++ visualization for the baseline and our LA-DNN model with the backbone net of DenseNet-169 (Column 1 represents the original CT scans; Columns 2 and 3 are the class activation maps of the baseline; Columns 4 and 5 are the class activation maps of our LA-DNN model).
     </em>
 </p>
 
