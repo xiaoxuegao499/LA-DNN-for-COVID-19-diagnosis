@@ -25,11 +25,13 @@ Chest (computed tomography) CT scanning is one of the most important technologie
   * The following link can help you get a detailed description about the dataset.<br>
     arXiv: https://arxiv.org/abs/2003.13865 <br>
     dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
-  * We use the image caption in the meta information provided by the dataset to add auxiliary labels to each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr) , and Interlobular septal thickening (InSepThi). New meta information containing auxiliary tags can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
-  * Fine-tuned data division can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
+  * We used the image caption in the meta-information provided by this datasets to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr) , and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary tags can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
+  * Fine-tuned data split information can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
   
-* We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19, in order to further optimize the performance of our model.
-  * XXX
+* We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19.
+  * All new samples will be uploaded to the folder `./New_data/`.
+  * If there are new relevant CT images on this day, we will name the folder with the date and upload it to `./New_data/`. For example, the new CT images added on May 14 is in `./New_data/5.14/`. If there is new sample, the CT images of COVID-19 is in `./New_data/5.14/5.14_covidct.zip`, and the CT images of Non-COVID19 is in `./New_data/5.14/5.14_nocovidct.zip`.
+  * The meta-information of the new sample (e.g., image name, label, collection date and source, etc.) will be continuously updated in `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
 
 ## 3. Online Diagnosis System
 
