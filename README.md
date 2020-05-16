@@ -2,7 +2,7 @@
 
 ## :fire: NEWS :fire:
 
-- [2020/05/14] :boom: (Updated by *Xiaoxue Gao*)
+- **[2020/05/14]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/5.14/`.
   * Update `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
@@ -12,16 +12,16 @@
        | :-----:    | :-----: | :-----: | :-----: | :-----: |
        | 2020/05/14 |   88.1  |   92.9  |   87.9  |   86.2  |
  
-- [2020/05/13] :boom: (Updated by *Xiaoxue Gao*)
+- **[2020/05/13]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/5.13/`.
   * Update `./New_data/New_NonCOVIDCT_meta(update to 5.13).csv`.
 
-- [2020/05/11] :boom: (Uploaded by *Mengshuang He*)
+- **[2020/05/11]** :boom: (Uploaded by *Mengshuang He*)
 
   * Upload new meta-information containing auxiliary labels about [COVID-CT-Dataset]( https://github.com/UCSD-AI4H/COVID-CT) in `./data_split/COVID-CT-MetaInfo_new.csv`. 
 
-- [2020/05/07] Create repository.
+- **[2020/05/07]** Create repository.
 
 ## 1. Background
 
