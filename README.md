@@ -16,7 +16,7 @@
 
   * Release new data in `./New_data/5.14/`.
   * Update `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
-  * Update the model in [Online Diagnosis System](https://www.covidct.cn/), The performance is as follows:
+  * Update the model of [Online Diagnosis System](https://www.covidct.cn/), the performance is as follows:
 
        |  Date      |   ACC   |   AUC   |    F1   |  Recall |
        | :-----:    | :-----: | :-----: | :-----: | :-----: |
