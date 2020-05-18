@@ -100,7 +100,7 @@ An online system has been developed for fast online diagnoses using CT images at
 
 ## 5. Citation
 
-A detailed introduction of our model and results is in [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
+The detailed introduction of our model and results is in [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
 
 Please cite our paper if you find the work useful:
 ```
