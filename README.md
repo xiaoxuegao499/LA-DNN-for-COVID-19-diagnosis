@@ -42,13 +42,13 @@ Chest (computed tomography) CT scanning is one of the most important technologie
 ## 2. Data
 
 * We used this public dataset: **"COVID-CT-Dataset: a CT scan dataset about COVID-19."** arXiv, 2020. <br>
-  * The following link can help you get a detailed description of the dataset.<br>
+  * The following links can help you get a detailed description of the dataset.<br>
     * arXiv: https://arxiv.org/abs/2003.13865 <br>
     * dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
   * We used the image caption in the meta-information provided by this dataset to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr), and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary labels can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
-  * Fine-tuned data split information can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
+  * The split information of fine-tuned data can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
   
-* We are still continuously collecting new CT images, including COVID-19 and NonCOVID-19.
+* We will keep on collecting new CT images, including COVID-19 and NonCOVID-19.
   * All new samples will be uploaded to the folder `./New_data/`.
   * If there are new relevant CT images on this day, we will name the folder with the date and upload it to `./New_data/`. For example, the new CT images added on May 14 is in `./New_data/5.14/`. If there is a new sample, the CT images of COVID-19 is in `./New_data/5.14/5.14_covidct.zip`, and the CT images of Non-COVID19 is in `./New_data/5.14/5.14_nocovidct.zip`.
   * The meta-information of the new sample (e.g., image name, label, collection date and source, etc.) will be continuously updated in `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
@@ -59,8 +59,8 @@ An online system has been developed for fast online diagnoses using CT images at
 
 :satisfied: Welcome to visit!!! :satisfied:
 
-  * You can quickly test a single sample or batch of samples in this system, through the navigation bar **Test → Single Image** or **Test → Batch of Images**.
-  * If you want to contribute data for our project, you can submit the data to **Data Collection**.
+  * You can quickly test a single sample or batch of samples following the navigation bar **Test → Single Image** or **Test → Batch of Images**.
+  * If you want to contribute data to our project, you can submit the data to **Data Collection**.
 
 <p align="center">
     <img src="Images/Navigationbar.png" width=800 /> <br />
