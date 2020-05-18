@@ -2,7 +2,7 @@
 
 ## :fire: NEWS :fire:
 
-- **[2020/05/16]** :boom: (Updated by *Xiaoxue Gao*)
+- **[2020/05/18]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/5.18/`.
   * Update `./New_data/New_COVIDCT_meta(update to 5.18).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.18).csv`.
