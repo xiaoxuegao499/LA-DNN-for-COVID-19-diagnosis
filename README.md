@@ -47,7 +47,7 @@ Chest (computed tomography) CT scanning is one of the most important technologie
 ## 2. Data
 
 * We used this public dataset: **"COVID-CT-Dataset: a CT scan dataset about COVID-19."** arXiv, 2020. <br>
-  * More information about this base dataset can be found at:.<br>
+  * More information about this base dataset can be found at:<br>
     * arXiv: https://arxiv.org/abs/2003.13865 <br>
     * dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
   * We used the image caption in the meta-information provided by this dataset to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr), and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary labels can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
