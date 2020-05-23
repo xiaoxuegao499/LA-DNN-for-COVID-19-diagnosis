@@ -64,7 +64,7 @@ An online system has been developed for fast online diagnoses using CT images at
 
 :satisfied: Welcome to visit!!! :satisfied:
 
-  * You can quickly test a single sample or batch of samples following the navigation bar **Test ¡ú Single Image** or **Test ¡ú Batch of Images**.
+  * You can quickly test a single sample or batch of samples following the navigation bar **Test â†’ Single Image** or **Test â†’ Batch of Images**.
   * We encourage clinicians, radiologists, and researchers to share more data to help us to improve this system. Data sharing can be achieved via the **Data Collection** channel of our website.
 
 <p align="center">
