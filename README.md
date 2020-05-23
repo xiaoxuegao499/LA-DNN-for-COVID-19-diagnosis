@@ -47,16 +47,16 @@ Chest (computed tomography) CT scanning is one of the most important technologie
 ## 2. Data
 
 * We used this public dataset: **"COVID-CT-Dataset: a CT scan dataset about COVID-19."** arXiv, 2020. <br>
-  * The following links can help you get a detailed description of the dataset.<br>
+  * More information about this base dataset can be found at:.<br>
     * arXiv: https://arxiv.org/abs/2003.13865 <br>
     * dataset: https://github.com/UCSD-AI4H/COVID-CT<br>
   * We used the image caption in the meta-information provided by this dataset to add auxiliary labels for each COVID-19 sample, including Ground-glass opacities (GGO), Consolidation (Csld), Crazy paving appearance (CrPa), Air bronchograms (AirBr), and Interlobular septal thickening (InSepThi). New meta-information containing auxiliary labels can be found in `./data_split/COVID-CT-MetaInfo_new.csv`.
   * The split information of fine-tuned data can refer to `./data_split/train_meta.csv`, `./data_split/val_meta.csv`, `./data_split/test_meta.csv`.
   
-* We will keep on collecting new CT images, including COVID-19 and NonCOVID-19.
-  * All new samples will be uploaded to the folder `./New_data/`.
-  * If there are new relevant CT images on this day, we will name the folder with the date and upload it to `./New_data/`. For example, the new CT images added on May 14 is in `./New_data/5.14/`. If there is a new sample, the CT images of COVID-19 is in `./New_data/5.14/5.14_covidct.zip`, and the CT images of Non-COVID19 is in `./New_data/5.14/5.14_nocovidct.zip`.
-  * The meta-information of the new sample (e.g., image name, label, collection date and source, etc.) will be continuously updated in `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
+* We will keep collecting new CT images for both COVID-19 and NonCOVID-19.
+  * New samples will be updated at this folder `./New_data/`.
+  * This dataset will be updated periodically. Hence, we name the folder of new data with the corresponding timestamp as a subdirectory of `./New_data/`. Suppose we add new CT images added on May 14, then the path will be:`./New_data/5.14/`. The positive and negative samples are separately stored with two zip files with names `./New_data/5.14/5.14_covidct.zip`, and `./New_data/5.14/5.14_nocovidct.zip` respectively.
+  * The meta-information of the new samples (e.g., image name, label, collection date and source, etc.) will be continuously updated in `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
 
 ## 3. Online Diagnosis System
 
@@ -64,8 +64,8 @@ An online system has been developed for fast online diagnoses using CT images at
 
 :satisfied: Welcome to visit!!! :satisfied:
 
-  * You can quickly test a single sample or batch of samples following the navigation bar **Test â†’ Single Image** or **Test â†’ Batch of Images**.
-  * If you want to contribute data to our project, you can submit the data to **Data Collection**.
+  * You can quickly test a single sample or batch of samples following the navigation bar **Test ¡ú Single Image** or **Test ¡ú Batch of Images**.
+  * We encourage clinicians, radiologists, and researchers to share more data to help us to improve this system. Data sharing can be achieved via the **Data Collection** channel of our website.
 
 <p align="center">
     <img src="Images/Navigationbar.png" width=800 /> <br />
@@ -105,9 +105,9 @@ An online system has been developed for fast online diagnoses using CT images at
 
 ## 5. Citation
 
-The detailed introduction of our model and results is in [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
+The details of our model can be found in this preprint: [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
 
-Please cite our paper if you find the work useful:
+Please cite our paper if you find this work useful:
 ```
     @article {Liu2020.05.11.20097907,
       author = {Liu, Bin and Gao, Xiaoxue and He, Mengshuang and Lv, Fengmao and Yin, Guosheng},
@@ -120,4 +120,3 @@ Please cite our paper if you find the work useful:
       journal = {medRxiv},
     }
 ```    
-
