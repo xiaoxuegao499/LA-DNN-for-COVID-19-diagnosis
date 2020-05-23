@@ -55,7 +55,7 @@ Chest (computed tomography) CT scanning is one of the most important technologie
   
 * We will keep collecting new CT images for both COVID-19 and NonCOVID-19.
   * New samples will be updated at this folder `./New_data/`.
-  * This dataset will be updated periodically. Hence, we name the folder of new data with the corresponding timestamp as a subdirectory of `./New_data/`. Suppose we add new CT images added on May 14, then the path will be:`./New_data/5.14/`. The positive and negative samples are separately stored with two zip files with names `./New_data/5.14/5.14_covidct.zip`, and `./New_data/5.14/5.14_nocovidct.zip` respectively.
+  * This dataset will be updated periodically. Hence, we name the folder of new data with the corresponding timestamp as a subdirectory of `./New_data/`. Suppose we add new CT images added on May 14, then the path will be:`./New_data/5.14/`. The positive and negative samples are separately stored with two zip files with names `./New_data/5.14/5.14_covidct.zip` and `./New_data/5.14/5.14_nocovidct.zip` respectively.
   * The meta-information of the new samples (e.g., image name, label, collection date and source, etc.) will be continuously updated in `./New_data/New_COVIDCT_meta(update to 5.14).csv` and `./New_data/New_NonCOVIDCT_meta(update to 5.14).csv`.
 
 ## 3. Online Diagnosis System
