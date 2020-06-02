@@ -2,6 +2,10 @@
 
 ## :fire: NEWS :fire:
 
+- **[2020/05/27]** :boom: (Updated by *Mengshuang He*)
+
+  * Release new data in `./New_data/6.2/`.
+
 - **[2020/05/27]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/5.27/`.
