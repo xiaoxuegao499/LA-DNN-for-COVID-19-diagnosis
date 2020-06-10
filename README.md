@@ -120,7 +120,16 @@ An online system has been developed for fast online diagnoses using CT images at
     </em>
 </p>
 
-## 5. Citation
+## 5. Dependence
+
+* Python 3.7.3
+* PyTorch 1.5.0
+
+## 6. More Information
+
+We uploaded a video on YouTube to introduce our project. The web address is https://youtu.be/MripiZ-1pHU.
+
+## 7. Citation
 
 The details of our model can be found in this preprint: [Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks](https://www.medrxiv.org/content/10.1101/2020.05.11.20097907v1).<br>
 
