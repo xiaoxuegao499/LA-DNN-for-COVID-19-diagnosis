@@ -2,6 +2,10 @@
 
 ## :fire: NEWS :fire:
 
+- **[2020/06/29]** :boom: (Updated by *Xiaoxue Gao*)
+
+  * Upload the pre-trained model which is split into 7 files in `./best_model/`.
+
 - **[2020/06/10]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Release new data in `./New_data/6.10/`.
