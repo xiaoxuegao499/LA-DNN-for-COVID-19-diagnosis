@@ -2,6 +2,10 @@
 
 ## :fire: NEWS :fire:
 
+- **[2020/07/08]** :boom: (Updated by *Xiaoxue Gao*)
+
+  * The pre-trained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1fnvSEnjRGXh--KY9IY3NpA)(extract code w3i1).
+
 - **[2020/06/29]** :boom: (Updated by *Xiaoxue Gao*)
 
   * Upload the pre-trained model which is split into 7 files in `./best_model/`.
