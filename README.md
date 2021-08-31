@@ -143,6 +143,15 @@ The details of our model can be found in this preprint: [Online COVID-19 diagnos
 
 Please cite our paper if you find this work useful:
 ```
+    @inproceedings{liu2020fast,
+      title={A fast online COVID-19 diagnostic system with chest CT scans},
+      author={Liu, Bin and Gao, Xiaoxue and He, Mengshuang and Liu, Lin and Yin, Guosheng},
+      booktitle={Proceedings of KDD},
+      volume={2020},
+      year={2020}
+    }
+```  
+```  
     @article {Liu2020.05.11.20097907,
       author = {Liu, Bin and Gao, Xiaoxue and He, Mengshuang and Lv, Fengmao and Yin, Guosheng},
       title = {Online COVID-19 diagnosis with chest CT images: Lesion-attention deep neural networks},
